@@ -8,4 +8,6 @@ phases:
     commands:
       - php --version
 artifacts:
-  base-directory: codebuild/buildspec.yml
+ files: 
+    - 'buildspec.yml'
+  base-directory: codebuild
