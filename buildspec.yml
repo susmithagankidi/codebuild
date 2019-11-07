@@ -9,5 +9,5 @@ phases:
       - php --version
 artifacts:
  files: 
-    - 'buildspec.yml'
+    - buildspec.yml
   base-directory: codebuild
