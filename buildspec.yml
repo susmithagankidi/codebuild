@@ -2,15 +2,11 @@ version: 0.2
 
 phases:
   install:
-    commands:
-      - npm install
+    runtime-versions:
+        php: 7.3
   build:
     commands:
-      - npm run build
-  post_build:
-    commands:
-      - npm run package
+      - php --version
 artifacts:
   files:
     - "**/*"
-  base-directory: dist
