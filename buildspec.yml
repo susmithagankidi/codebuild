@@ -1,5 +1,7 @@
 version: 0.2
-
+env:
+  parameter-store:
+    Name: "/Test/helloWorld"
 phases:
   install:
     runtime-versions:
